@@ -66,3 +66,11 @@ Node2
     inet6 fe80::a00:27ff:fe66:a003/64 scope link
        valid_lft forever preferred_lft forever
 ```
+```
+Node1
+[hugo@localhost ~]$ ping 192.168.56.121
+PING 192.168.56.121 (192.168.56.121) 56(84) bytes of data.
+64 bytes from 192.168.56.121: icmp_seq=1 ttl=64 time=2.33 ms
+64 bytes from 192.168.56.121: icmp_seq=2 ttl=64 time=0.116 ms
+64 bytes from 192.168.56.121: icmp_seq=3 ttl=64 time=0.090 ms
+```
