@@ -158,6 +158,15 @@ Node1 vers Node3
 
 III. Serveur DHCP
 
+Donner un accès Internet à la machine dhcp.tp1.efrei
+
+``` << ligne de code >> ```
+
+
+``` << Preuve que sa marche >>```
+
+
+Installer et configurer un serveur DHCP
 
 
 
