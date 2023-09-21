@@ -18,7 +18,7 @@ Définir une IP statique sur les deux machines :
 ici je change l'ip et je met 192.168.56.121 et 192.168.56.122               
 
 
-```sudo nmcli con reload ```
+```sudo nmcli con reload ```                                               
 
 
 ```sudo nmcli con up enp0s8 ```
