@@ -88,10 +88,13 @@ PING 192.168.56.121 (192.168.56.121) 56(84) bytes of data.
 64 bytes from 192.168.56.121: icmp_seq=3 ttl=64 time=1.50 ms
 ```
 
-
+Ping Wireshark Effectué ,Enregistrement bien Partagé
 
 
 II. Ajoutons un switch
+
+
+Déterminer l'adresse MAC de vos trois machines
 
 
  Voici les adresses Mac de mes 3 nodes
@@ -101,7 +104,7 @@ II. Ajoutons un switch
  Node 2 08:00:27:66:a0:03
  Node 3 08:00:27:0c:eb:a7
 ```
-
+Définir une IP statique sur les trois machines    
 ```
 Node3 :
 NAME=enp0s8
@@ -121,10 +124,19 @@ NETMASK=255.255.255.0
 
 ```sudo nmcli con up enp0s8 ```
 
+ Effectuer des ping d'une machine à l'autre
 
+
+ 
 Je vais Maintenant Ping 
+
+
 Node1 vers Node2 
+
+
 Node2 vers Node3
+
+
 Node1 vers Node3
 
 
