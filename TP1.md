@@ -87,3 +87,37 @@ PING 192.168.56.121 (192.168.56.121) 56(84) bytes of data.
 ```
 
 
+
+
+II. Ajoutons un switch
+
+
+ Voici les adresses Mac de mes 3 nodes
+ 
+```
+ Node 1 08:00:27:36:91:51 
+ Node 2 08:00:27:66:a0:03
+ Node 3 08:00:27:0c:eb:a7
+```
+
+```
+Node3 :
+NAME=enp0s8
+DEVICE=enp0s8
+
+BOOTPROTO=static
+ONBOOT=yes
+
+IPADDR=192.168.56.123
+NETMASK=255.255.255.0
+
+
+```
+
+```sudo nmcli con reload ```                                               
+
+
+```sudo nmcli con up enp0s8 ```
+
+
+
