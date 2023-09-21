@@ -1,4 +1,6 @@
 # tp1
+I. Most simplest LAN
+
 
 Déterminer l'adresse MAC de vos deux machines :
 
@@ -118,6 +120,34 @@ NETMASK=255.255.255.0
 
 
 ```sudo nmcli con up enp0s8 ```
+
+
+Je vais Maintenant Ping 
+Node1 vers Node2 
+Node2 vers Node3
+Node1 vers Node3
+
+
+``` 
+Node1 vers Node2
+
+```
+
+```
+Node2 vers Node3
+
+```
+
+```
+Node1 vers Node3
+
+```
+
+
+III. Serveur DHCP
+
+
+
 
 
 
