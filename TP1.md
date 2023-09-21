@@ -44,7 +44,7 @@ NETMASK=255.255.255.0
 
 ```sudo nmcli con up enp0s8 ```
 
-
+Ensuite pour venir comfirmer le changement je vien faire un
 ```ip a```
 
 ```
