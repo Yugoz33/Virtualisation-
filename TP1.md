@@ -45,6 +45,7 @@ NETMASK=255.255.255.0
 ```sudo nmcli con up enp0s8 ```
 
 Ensuite pour venir comfirmer le changement je vien faire un
+
 ```ip a```
 
 ```
@@ -84,3 +85,5 @@ PING 192.168.56.121 (192.168.56.121) 56(84) bytes of data.
 64 bytes from 192.168.56.121: icmp_seq=2 ttl=64 time=1.34 ms
 64 bytes from 192.168.56.121: icmp_seq=3 ttl=64 time=1.50 ms
 ```
+
+
