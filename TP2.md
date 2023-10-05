@@ -1,6 +1,6 @@
 I. Routage
 
-
+☀️ Configuration de router.tp2.efrei
 ip a (node)
 ```
 [hugo@localhost ~]$ ip a
@@ -62,7 +62,7 @@ ip a (routeur)
 ```
 
 
-☀️ Configuration de router.tp2.efrei
+
 
 ```
 [hugo@localhost ~]$ ping google.fr
