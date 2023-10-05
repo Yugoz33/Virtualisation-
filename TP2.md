@@ -111,7 +111,23 @@ rtt min/avg/max/mdev = 23.151/27.474/29.747/2.094 ms
 
 
 ```
+Command Traceroute
 
+```
+[hugo@localhost network-scripts]$ traceroute 8.8.8.8
+traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.128.2)  2.746 ms  2.166 ms  1.976 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+
+```
 
 
 
