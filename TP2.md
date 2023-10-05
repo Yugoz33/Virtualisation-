@@ -94,7 +94,23 @@ rtt min/avg/max/mdev = 1.011/2.233/4.135/1.161 ms
 
 ```
 
+Ping internet depuis la node 1
+```
+[hugo@localhost network-scripts]$ ping google.com
+PING google.com (142.250.179.110) 56(84) bytes of data.
+64 bytes from par21s20-in-f14.1e100.net (142.250.179.110): icmp_seq=1 ttl=127 time=28.9 ms
+64 bytes from par21s20-in-f14.1e100.net (142.250.179.110): icmp_seq=2 ttl=127 time=23.2 ms
+64 bytes from par21s20-in-f14.1e100.net (142.250.179.110): icmp_seq=3 ttl=127 time=27.5 ms
+64 bytes from par21s20-in-f14.1e100.net (142.250.179.110): icmp_seq=4 ttl=127 time=29.7 ms
+64 bytes from par21s20-in-f14.1e100.net (142.250.179.110): icmp_seq=5 ttl=127 time=27.4 ms
+64 bytes from par21s20-in-f14.1e100.net (142.250.179.110): icmp_seq=6 ttl=127 time=28.1 ms
+^C
+--- google.com ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5023ms
+rtt min/avg/max/mdev = 23.151/27.474/29.747/2.094 ms
 
+
+```
 
 
 
