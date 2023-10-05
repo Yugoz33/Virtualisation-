@@ -1,6 +1,8 @@
 I. Routage
 
 ☀️ Configuration de router.tp2.efrei
+
+
 ip a (node)
 ```
 [hugo@localhost ~]$ ip a
@@ -79,6 +81,8 @@ rtt min/avg/max/mdev = 98.413/100.415/103.797/1.807 ms
 
 ```
 ☀️ Configuration de node1.tp2.efrei
+
+
 Ping de la Node au Router
 ```
 [hugo@localhost network-scripts]$ ping 10.2.1.254
