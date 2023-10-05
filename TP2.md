@@ -1,9 +1,7 @@
 I. Routage
 
 
-
-
-
+ip a (node1)
 ```
 [hugo@localhost ~]$ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
