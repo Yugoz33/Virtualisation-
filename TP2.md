@@ -78,6 +78,7 @@ PING google.fr (142.251.16.94) 56(84) bytes of data.
 rtt min/avg/max/mdev = 98.413/100.415/103.797/1.807 ms
 
 ```
+☀️ Configuration de node1.tp2.efrei
 Ping de la Node au Router
 ```
 [hugo@localhost network-scripts]$ ping 10.2.1.254
