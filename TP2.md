@@ -80,18 +80,16 @@ rtt min/avg/max/mdev = 98.413/100.415/103.797/1.807 ms
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+[hugo@localhost network-scripts]$ ping 10.2.1.254
+PING 10.2.1.254 (10.2.1.254) 56(84) bytes of data.
+64 bytes from 10.2.1.254: icmp_seq=1 ttl=64 time=1.01 ms
+64 bytes from 10.2.1.254: icmp_seq=2 ttl=64 time=1.72 ms
+64 bytes from 10.2.1.254: icmp_seq=3 ttl=64 time=2.07 ms
+64 bytes from 10.2.1.254: icmp_seq=4 ttl=64 time=4.14 ms
+^C
+--- 10.2.1.254 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3441ms
+rtt min/avg/max/mdev = 1.011/2.233/4.135/1.161 ms
 
 
 ```
