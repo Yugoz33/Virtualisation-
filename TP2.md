@@ -61,7 +61,22 @@ ip a (routeur)
 ```
 
 
+☀️ Configuration de router.tp2.efrei
 
+```
+[hugo@localhost ~]$ ping google.fr
+PING google.fr (142.251.16.94) 56(84) bytes of data.
+64 bytes from bl-in-f94.1e100.net (142.251.16.94): icmp_seq=1 ttl=128 time=100 ms
+64 bytes from bl-in-f94.1e100.net (142.251.16.94): icmp_seq=2 ttl=128 time=98.4 ms
+64 bytes from bl-in-f94.1e100.net (142.251.16.94): icmp_seq=3 ttl=128 time=104 ms
+64 bytes from bl-in-f94.1e100.net (142.251.16.94): icmp_seq=4 ttl=128 time=99.9 ms
+64 bytes from bl-in-f94.1e100.net (142.251.16.94): icmp_seq=5 ttl=128 time=99.7 ms
+^C
+--- google.fr ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4023ms
+rtt min/avg/max/mdev = 98.413/100.415/103.797/1.807 ms
+
+```
 
 
 
