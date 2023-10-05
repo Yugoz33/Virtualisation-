@@ -30,7 +30,7 @@ ip a (routeur)
 
 ```
 
-[hugo@localhost ~]$ ip a
+[hugo@localhost network-scripts]$ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
@@ -52,9 +52,10 @@ ip a (routeur)
 4: enp0s9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     link/ether 08:00:27:db:c5:e0 brd ff:ff:ff:ff:ff:ff
     inet 192.168.128.131/24 brd 192.168.128.255 scope global dynamic noprefixroute enp0s9
-       valid_lft 1732sec preferred_lft 1732sec
+       valid_lft 1631sec preferred_lft 1631sec
     inet6 fe80::8e81:a58c:b119:14eb/64 scope link noprefixroute
        valid_lft forever preferred_lft forever
+
 
 
 
