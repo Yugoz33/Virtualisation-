@@ -3,7 +3,7 @@ I. Routage
 ☀️ Configuration de router.tp2.efrei
 
 
-ip a (node)
+ip a (node) 
 ```
 [hugo@localhost ~]$ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
