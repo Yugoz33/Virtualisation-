@@ -70,7 +70,7 @@ nano /etc/sysconfig/network-scripts/route-enp0s3
 
 🌞 Mettre en place les routes par défaut
 
-prouvez avec un ping depuis node1.net1.tp3 que vous avez bien un accès ``````internet
+prouvez avec un ping depuis node1.net1.tp3 que vous avez bien un accès internet
 
 ```
 [root@node1 ~]# ping google.com
