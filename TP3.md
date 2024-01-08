@@ -1,5 +1,9 @@
 
 🌞 Mettre en place la topologie dans GS3
+reproduisez la topologie, configurez les IPs et les noms sur toutes les machines
+une fois en place, assurez-vous donc que :
+
+toutes les machines du réseau 1 peuvent se ping entre elles
 
 ```
 [root@node1 ~]# ping 10.3.1.12
