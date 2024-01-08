@@ -4,39 +4,41 @@ reproduisez la topologie, configurez les IPs
 et les noms sur toutes les machines
 une fois en place, assurez-vous donc que :
 
-toutes les machines du réseau 1 peuvent se ping entre elles
+toutes les machines du réseau 1 peuvent se ping mutuellement
 
 ```
 [root@node1 ~]# ping 10.3.1.12
 PING 10.3.1.12 (10.3.1.12) 56(84) bytes of data.
-64 bytes from 10.3.1.12: icmp_seq=1 ttl=64 time=3.25 ms
-64 bytes from 10.3.1.12: icmp_seq=2 ttl=64 time=2.67 ms
+64 bytes from 10.3.1.12: icmp_seq=1 ttl=64 time=3.15 ms
+64 bytes from 10.3.1.12: icmp_seq=2 ttl=64 time=3.31 ms
 ```
-toutes les machines du réseau 2 peuvent se ping entre elles
+toutes les machines du réseau 2 peuvent se ping mutuellement
+
 
 ```
 [root@node2 ~]# ping 10.3.2.11
 PING 10.3.2.11 (10.3.2.11) 56(84) bytes of data.
-64 bytes from 10.3.2.11: icmp_seq=1 ttl=64 time=3.44 ms
-64 bytes from 10.3.2.11: icmp_seq=2 ttl=64 time=4.12 ms
+64 bytes from 10.3.2.11: icmp_seq=1 ttl=64 time=5.44 ms
+64 bytes from 10.3.2.11: icmp_seq=2 ttl=64 time=2.12 ms
 ```
 
-toutes les machines du réseau 3 peuvent se ping entre elles
+toutes les machines du réseau 3 peuvent se ping mutuellement
+
 
 ```
 [root@routeur2 ~]# ping 10.3.100.1
 PING 10.3.100.1 (10.3.100.1) 56(84) bytes of data.
-64 bytes from 10.3.100.1: icmp_seq=1 ttl=64 time=1.86 ms
-64 bytes from 10.3.100.1: icmp_seq=2 ttl=64 time=1.49 ms
+64 bytes from 10.3.100.1: icmp_seq=1 ttl=64 time=1.36 ms
+64 bytes from 10.3.100.1: icmp_seq=2 ttl=64 time=1.89 ms
 ```
 
 le router1.tp3 doit avoir un accès internet normal
 ```
 [root@routeur1 ~]# ping google.com
 PING google.com (142.250.179.78) 56(84) bytes of data.
-64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=1 ttl=128 time=15.9 ms
-64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=2 ttl=128 time=17.2 ms
-64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=3 ttl=128 time=15.4 ms
+64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=1 ttl=128 time=12.9 ms
+64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=2 ttl=128 time=14.2 ms
+64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=3 ttl=128 time=19.4 ms
 ```
 
 🌞 Mettre en place les routes locales
