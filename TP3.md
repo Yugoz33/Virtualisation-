@@ -1,5 +1,5 @@
 
-**🌞 Mettre en place la topologie dans GS3 ,
+**🌞 Mettre en place la topologie dans GS3** ,
 reproduisez la topologie, configurez les IPs 
 et les noms sur toutes les machines
 une fois en place, assurez-vous donc que :
