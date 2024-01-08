@@ -29,3 +29,37 @@ PING 10.3.100.1 (10.3.100.1) 56(84) bytes of data.
 64 bytes from 10.3.100.1: icmp_seq=1 ttl=64 time=1.86 ms
 64 bytes from 10.3.100.1: icmp_seq=2 ttl=64 time=1.49 ms
 ```
+
+le router1.tp3 doit avoir un accès internet normal
+```
+[root@routeur1 ~]# ping google.com
+PING google.com (142.250.179.78) 56(84) bytes of data.
+64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=1 ttl=128 time=15.9 ms
+64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=2 ttl=128 time=17.2 ms
+64 bytes from par21s19-in-f14.1e100.net (142.250.179.78): icmp_seq=3 ttl=128 time=15.4 ms
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
